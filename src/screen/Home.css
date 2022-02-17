@@ -1,0 +1,196 @@
+ .AppHome{ 
+      /* width:100vw; */
+    /* height:100vh;   */
+    /* font-family:"IRANSans-Medium-web"; */
+   /* position:relative;  */
+
+}  
+.imageHome{ 
+   position:relative; 
+  /* top:1px;
+  left:1px; */
+ /* width: 1920vmax;  */
+ box-sizing: border-box;
+ width: 100%;
+/* height: 1082px; */
+/* height: 768px; */
+height: 100vh;
+
+border: rgba(0, 255, 128, 0) solid 0.75px;
+background-image: url("../assets/Images/home4.png");
+}
+/* .imageAnime{ */
+   /* position:absolute;  */
+  /* width: 596px; */
+  /* width: 398px; */
+  /* width:40%; */
+  /* height:544px; */
+  /* height:50%; */
+  /* top:237px; */
+  /* top: 30%; */
+  /* left:154px; */
+  /* left:5%; */
+
+  /* margin-left: 220px;
+  margin-bottom: 220px; */
+/* } */
+.imageAni{
+  width:80%;
+  /* height:544px; */
+  height:70%;
+}
+.text{
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16%;
+  margin-right: 12%;
+  width: 90vw;
+}
+.textLarge{
+  font-size: 030.7px;
+  width: 408px;
+  height: 30px;
+}
+.ul{
+  /* position: absolute; */
+  list-style: none;
+  padding-right: 0.5px;
+}
+/* .ul li:first-child{
+  font-size: 15px;
+  background-color: chocolate;
+} */
+.ul li{
+  padding-top:15px;
+  font-size: 75%;
+} 
+.ul li:first-child{
+  height: 30px;
+  display: flex;
+  align-items: center;
+} 
+.Icon-border{
+  border-right: green solid 8px;
+  padding-right: 20px;
+  border-radius:5px;
+  font-size: 15px;
+  /* font-size: 115%; */
+
+}
+.Icon{
+color:#12B428;
+padding-left: 15px;
+}
+#buttons-unity{
+  font-family:"IRANSans-Medium-web";
+  font-weight: 600;
+  /* width: 216px; */
+  /* width: 200px; */
+  width: 145px;
+  /* height: 64px; */
+  height: 44px;
+  border-radius: 7px;
+}
+.button-entry{
+  background-color:#12B428 ;
+  border: #12B428 solid 2px;
+  color: #FEFEFE; 
+  font-size: 10px;
+}
+.button-entry:hover{
+  background-color: #FEFEFE;
+  color: #12B428;
+}
+.button-KnowMore{
+  background-color:#FEFEFE ;
+  border: #12B428 solid 2px;
+  color: #12B428; 
+   margin-left: 32px; 
+  font-size: 10px;
+  /* text-decoration: none; */
+}
+.button-KnowMore:hover{
+  background-color: #12B428;
+  color: #FEFEFE;
+}
+.buttons-bottem{
+   /* display: flex;  */
+   /* justify-content:space-evenly; */
+  /* position: absolute; */
+     /* margin-left: 1212px;   */
+     /* margin-left: 1050px;   */
+      /* top: 751px;  */
+      /* top: 591px; */
+      /* top: 60%; */
+
+}
+#takhfifane-border{
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+  width: 100px;
+  height: 60px;
+
+  border-bottom: #12B428 solid 4px;
+  border-radius: 2px;
+} 
+/* should craosel implemmention */
+
+#line-Programmer{
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 5%;
+  margin-bottom: 30px;
+}
+.text-programing {
+  /* width: 111px; */
+  width: 115px;
+  height: 40px;
+  border-bottom: #12B428 solid 4px;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+.text-more{
+  text-decoration: none;
+  color: #141414;
+}
+#CardProduct{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-inline: 4.1%; 
+  /* respansive */
+}
+/* @media only screen and (max-width:700px){
+  .imageHome{width:600px ;}
+  .imageAnime{width: 296px;}
+} */
+
+@media only screen and (max-width:511px){
+  .text{
+    display: grid;
+  }
+  .textLarge{
+    margin-top: 60px;
+    font-size: 20px;
+    width: 300px;
+  height:20px;
+  }
+  .imageAni{
+    width:90%;
+    height:80%;
+  }
+  #buttons-unity{
+    font-family:"IRANSans-Medium-web";
+    font-weight: 600;
+    width: 100px;
+    height: 34px;
+  }
+  .imageAni{
+    display: none;
+  }
+  .imageHome{ 
+ height: 75vh;
+ }
+}

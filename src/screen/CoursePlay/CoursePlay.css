@@ -1,0 +1,245 @@
+.container-course{
+    font-family: "IRANSans-Medium-web" ;
+}
+#backend-text{
+    width:108px;
+    height: 40px;
+    border-bottom:5px solid #12B428;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+.border-backend{
+    direction: rtl;
+padding-right:80px ;
+    padding-top:80px;
+}
+#horiz{
+display: flex;
+justify-content:space-evenly;
+}
+#horiz-small{
+    display: flex;
+justify-content:space-between;
+}
+.video-player{
+width: 1230px;
+height: 456px;
+border-radius: 10px;
+/* box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.603); */
+padding-right:80px ;
+
+}
+.specification-course{
+    width: 25vw;
+    height: 475px;
+border-radius: 10px;
+box-shadow: 0px 0px 020px rgba(128, 128, 128, 0.603);
+margin-left: 80px;
+margin-right: 30px;
+}
+.h1-specifi{
+    display: flex;
+    justify-content: center;
+    /* font-size: 25px; */
+}
+hr{
+    border-style: solid;
+    border-width: 0.5px ;
+   border-color:  #12B428;
+   margin-inline: 7%;
+}
+#horiz p{
+    font-size: 10px;
+    margin-inline: 10%;
+}
+.Icons-specifi{
+    font-size: 16px;
+    /* top: 5px; */
+    padding-left: 15px;
+    margin-top: 0px;
+    /* margin-right: 0%px; */
+    color: black;
+}
+.divs{
+    display: flex;
+    /* right: 0px; */
+    /* justify-content:space-between; */
+    /* bottom: 20px; */
+}
+.xx{
+    display: flex;
+ justify-content: center;
+width: 25vw;
+height: 15px;
+}
+.rating-{
+ /* margin-inline: 130%; */
+ /* margin-top: 0px; */
+}
+#horiz-small-cost{
+    display: flex; 
+     justify-content:space-evenly;
+}
+.number-cost{
+    width: 320px;
+}
+.cost{
+    display: flex;
+    align-items:flex-end;
+    font-size: 12px;
+    margin-right: 25px;
+}
+.number-cost-p{
+    font-size:10px;
+}
+.btn{
+    width: 21vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 2px solid #12B428;
+    font-size: 13px;
+    color: #45BFEC;
+    font-family: "IRANSans-Medium-web" ;
+
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: #12B428;
+    color: #FFFFFF;
+    transition: 1s;
+    cursor: pointer;
+}
+.h1-text{
+    width:130px;
+    height: 45px;
+    border-bottom:6px solid #12B428;
+    border-radius: 4px;
+}
+.div-h1-text{
+    /* display: flex;
+    justify-content: flex-end; */
+direction: rtl;
+margin-right: 90px;
+padding-top: 20px;
+margin-left: 116px;
+/* width: 120px; */
+}
+.explain{
+    direction: rtl;
+    margin-inline:80px;
+    padding-inline: 50px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.603);
+    font-size: 13px;
+line-height: 1.0cm;
+text-align:justify;
+}
+.div-h1-play{
+    /* width:260px; 
+    height: 65px; */
+    display: flex;
+    justify-content: center;
+/* padding-inline: 43.5px; */
+
+}
+.play-h1{
+    border-bottom:6px solid #12B428;
+    border-radius: 4px;
+    text-align:center;
+    padding-bottom: 15px;
+    /* font-size: 25px; */
+}
+.h1-Related{
+    width:150px;
+}
+.row-related{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.more-related{
+    font-size: 15px;
+    font-weight: bold;
+margin-left: 90px;
+}
+.linkmor{
+    color: black;
+    text-decoration: none;
+}
+
+#CardProduct{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-inline: 4.1%; 
+    
+}
+.ul-comment{
+    direction: rtl;
+  list-style: none;
+margin-right: 60px;
+font-size: 13px;
+line-height: 0.9cm;
+}
+#icon-checkout{
+    color: #12B428;
+    top: 70px;
+    font-size: 25px;
+    padding-left: 15px;
+}
+li{  
+    display: flex;
+    justify-content:flex-start;
+}
+.placeholder-comments{
+    width:84%;
+    height: 200px;
+    border-radius: 16px;
+    background-color: #00000029;
+    font-size:13px;
+    font-family: "IRANSans-Medium-web" ;
+direction: rtl;
+box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.979);
+margin-left:80px;
+margin-top: 20px;
+padding: 30px; 
+
+margin-right: 20vw;
+
+}
+.rate-margin{
+padding-top: 5px;
+}
+
+@media only screen and (max-width:834px){
+    #horiz{
+        display: grid;
+        }
+        .video-player{
+            width: 70vw;
+            padding-inline:15%;
+            padding-block:25px ;
+            }
+            .specification-course{
+                width: 95vw;
+                margin-inline:65px ;
+                height: 475px;
+            }
+            #horiz-small{
+                display: flex;
+            justify-content:space-evenly;
+            }
+            .explain{
+                padding-inline: 20px;
+                font-size: 10px;
+            line-height: 0.8cm;
+            }
+            .btn{
+                font-size: 10px;
+            }
+} 

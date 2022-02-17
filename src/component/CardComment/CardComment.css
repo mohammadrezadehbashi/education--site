@@ -1,0 +1,119 @@
+.container-comment{
+    height: 150px;
+    /* width:90vw ; */
+    margin-inline: 80px;
+    margin-block: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.603);
+    background-color: #f1f4ff;
+font-family: "IRANSans-Medium-web" ;
+
+}
+.total-flex{
+    direction: rtl;
+display:flex;
+justify-content: space-between;
+height: 25px;
+}
+.img-prof{
+    width: 120px;
+    height: 120px;
+    border-radius:70px;
+    margin-right: 24px;
+    margin-top: 20px;
+    border: 1px solid #707070;
+}
+.name-rate{
+    display: grid;
+padding-block:10px;
+padding-inline: 25px;
+margin-block:20px;
+height: 25px;
+}
+.frame-comment{
+    box-sizing: border-box;
+    padding-inline:10px;
+    margin-left:5px;
+padding-top:10px;
+line-height:0.8cm;
+text-align:justify;
+font-size: 0.8vw;
+height: 30px;
+line-height: 0.5cm;
+}
+.btns{
+    margin-block: 20px;
+    margin-left: 40px;
+}
+.date{
+    direction: ltr;
+margin-bottom: 20px;
+
+}
+.bn{
+    width: 100px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #f1f4ff;
+    font-size:10px;
+font-family: "IRANSans-Medium-web" ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-report{
+    border: 2px solid #12B428;
+    margin-top: 24px;
+}
+.btn-answer{
+    border: 2px solid #FF0033;
+}
+.btn-answer:hover{
+    background-color: #FF0033;
+    color: #f1f4ff;
+}
+.btn-report:hover{
+    background-color: #12B428;
+    color: #f1f4ff;
+}
+
+@media only screen and (max-width:850px){
+    .img-prof{
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+ .font-media{
+     font-size:10px;
+ }
+.bn{
+    width: 40px;
+    height: 40px;
+}
+.btns{
+    margin-block: 25px;
+    margin-left: 10px;
+}
+}
+@media only screen and (max-width:650px){
+    .container-comment{
+        margin-inline: 40px;
+    }
+    .img-prof{
+        width: 35px;
+        height: 55px;
+        margin-right: 5px;
+        margin-top: 45px;
+    }
+    .btns{
+        margin-block: 25px;
+        margin-left: 5px;
+    }
+    .bn{
+        width: 20px;
+        height: 40px;
+    font-size:5px;
+    font-weight: bold;
+    }
+}

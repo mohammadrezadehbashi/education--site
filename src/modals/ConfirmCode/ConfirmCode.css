@@ -1,0 +1,199 @@
+.container-confirm{
+    /* width:990px ; */
+    width: 540px;
+    /* height:1053px ; */
+    height: 575px;
+box-shadow: 0px 0px 20px grey;
+margin-top: 30px;
+margin-inline:30%;
+background-color: white;
+border-radius: 20px;
+}
+.f-flex{
+    display: flex;
+    justify-content:space-between;
+    padding: 16.39px;
+}
+.imgs-Academi{
+    /* width:151px ; */
+    width:82.51 px;
+    /* height:107px ; */
+    height: 58.46px;
+}
+.btn-x{
+    width: 21.85px;
+    height: 21.85px;
+    font-size: 12px;
+    font-weight: bold;
+    border:2px solid red;
+    background-color: white;
+    border-radius: 5px;
+    color: red;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vaje{
+    margin-inline: 220px;
+    padding-bottom: 12px;
+}
+.bord{
+    border-bottom: 2px solid #45BFEC;
+    width: 109px;
+    padding-bottom: 5px;
+}
+.imgs-confirm{
+    /* width: 400px; */
+    width: 218.57px;
+    /* height: 350px; */
+    height: 191.25px;
+    padding-inline: 159px;
+}
+
+.p-text-bottom{
+    margin-inline: 160px;
+    font-size: 9px;
+    font-weight: bold;
+    padding-top:10px;
+}
+.inpt{
+    /* width:400px ; */
+    width: 173px;
+    /* height:40px ; */
+    height:21.85px ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid #45BFEC;
+    margin-right:10px;
+    direction: rtl;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.bbttnn{
+    width: 218.57px;
+    height:21.85px ;
+    border-radius: 5px;
+    margin-inline:148px;
+    border:2px solid #12B428;
+    color: #12B428;
+    font-size: 26x;
+    margin-top: 10px;
+    font-family:"IRANSans-Medium-web";
+    background-color: white;
+    padding-inline: 115px;
+    padding-block: 12px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>> >>>>code */
+.border-code{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+.input-separat{
+display: flex;
+justify-content:center;
+padding-top: 25px;
+}
+.blank-sep{
+    width: 15px;
+    border:none ;
+    border-bottom:1px solid #12B428;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-left: 11px;
+}
+.b-entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 40px;
+}
+.flex-bottom{
+    /* display: flex; */
+    text-align: center;
+    font-size:10px;
+    color: #45BFEC;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>errorconfirm */
+.p-texts-bottom{
+    text-align: center;
+    font-size: 11px;
+    margin-bottom:1px;
+}
+.blank-sep2{
+    border-bottom:1px solid #c71717;
+padding-top: 0px;
+}
+.f-flex2{
+    padding-top: 0px;
+}
+.vaje2{
+    padding-bottom: 0px;
+}
+.p-send{
+    padding-top: 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>warningnumphone */
+.text-p-question{
+    font-size: 12px;
+    text-align: center;
+}
+.text-p-numPhone{
+    width: 120px;
+}
+.flex-inputValid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline:90px;
+}
+.btnValidation{
+    padding-inline: 0px;
+    width: 160px;
+    margin-inline:0px;
+    margin-top: 10px;
+}
+.vajeWarning{
+   margin-left: 240px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  }
+  .flex-row-num{
+      display: flex;
+justify-content: center;
+
+  }
+  .nineteenEightdiv{
+      width: 43px;
+    /* border: 2px solid #45BFEC; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:27.85px ;
+background-color: #45BFEC;
+  }
+  .entry-message{
+      display:flex;
+      align-items: center;
+      color:red;
+      font-size: 10px;
+      height: 10px;
+  }
+.editNum:hover{
+    cursor: pointer;
+    color: darkorange;
+}
+  /* .ffR{
+    position: absolute;
+  height: auto;
+  top:5%;
+  left:5%;
+  
+  } */

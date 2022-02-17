@@ -1,0 +1,82 @@
+.div-cooperation{
+    position:absolute;
+    width: 67vw;
+    height: 310px;
+box-shadow: 0px 0px 20px rgba(0, 60, 128, 0.534);
+top: 220px;
+left: 60px;
+}
+.p-condition{
+    direction: rtl;
+    font-size: 11px;
+    line-height: 0.61cm;
+text-align:justify;
+padding-inline: 15px;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+.div-ruls{ 
+    height: 390px;
+}
+.resume-btn{
+    text-decoration: none;
+    color: black;
+}
+.resume-btn:hover{
+    /* text-decoration: none; */
+    color: white;
+}
+
+@media only screen and (min-width:1138px){
+    .div-cooperation{
+        width: 740px;
+    }
+   
+    .borders-inputs{
+    width: 250px ;
+    }
+}
+@media only screen and (max-width:1150px){
+    .div-cooperation{
+        width: 680px;
+    }
+    .p-condition{
+        font-size: 8px;
+padding-bottom: 0px;
+
+    }
+}
+@media only screen and (max-width:1095px){
+    .div-cooperation{
+        width: 530px;
+        height: 400px;}
+    
+}
+@media only screen and (max-width:950px){
+    .div-cooperation{
+        width: 405px;
+        height: 390px;
+    }
+    .p-condition{
+        font-size: 8px;
+padding-bottom: 0px;
+    }
+    .flexible-convert-cooper{
+        margin-bottom: 90px;
+    }
+}
+@media only screen and (max-width:793px){
+    .div-cooperation{
+        width: 75vw;
+        height: 400px;
+        top: 420px;
+left: 60px;
+    }
+}
+@media only screen and (max-width:664px){
+    .div-cooperation{
+        overflow-y: auto;
+    }
+
+}
+

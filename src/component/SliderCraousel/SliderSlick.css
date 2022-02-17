@@ -1,0 +1,24 @@
+.dive{
+    /* width: 5%;
+    height: 2%; */
+    padding:20px;
+}
+.div{
+    width:50px;
+    height: 190px;
+    background-color: rgb(73, 73, 168);
+
+} 
+.center{
+    /* width:950px;
+    height: 190px; */
+     margin-inline: 5%;
+     padding: 0px;
+   /* color: brown; */
+    /* padding:5px; */
+}
+@media only screen and (max-width:900px){
+    Slider{
+        slidesToShow: 3;
+    }
+}

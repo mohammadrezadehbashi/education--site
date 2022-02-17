@@ -1,0 +1,227 @@
+.container{
+   /* position:relative;  */
+
+    /* position:absolute; */
+        /* width:100vw; */
+height: 1460px;
+/* height: 100%; */
+
+    background-image:url(../../assets/Images/jk1t5tzt.png);
+background-repeat:round;
+background-size:contain;
+opacity: 0.4;
+}
+.opacity{
+    position: absolute;
+    margin-left:1%;
+
+    /* background-color: #e77272; */
+    /* 
+    opacity: 0.7; */
+    /* width: 100vw; */
+    top: 0;
+
+/* height: 24668px; */
+/* z-index: +1; */
+}
+#flex-in-absolute{ 
+    display: flex;
+    justify-content:center;
+    /* background-color: rgb(185, 247, 247); */
+    width: 97vw;
+
+}
+.divs-img-academi{
+    width: 100vw;
+    /* margin-inline: 50%; */
+    margin-top:7% ;
+    display: flex;
+    justify-content: center;
+
+}
+.img-academi{
+    width: 167px;
+    height: 110px;
+    /* margin-top: 196px; */
+    margin-top:7% ;
+    /* background-color: mediumblue; */
+   
+}
+.paragrapfOne{
+    font-size: 20px;
+    /* margin-inline: 20%; */
+    text-align: center;
+    /* background-color: magenta; */
+    margin-bottom: 10px;
+
+}
+.paragrapfOne-p{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 5%;   
+    /* line-height:1cm; */
+    /* position:relative; */
+    margin-top: 0px;
+    /* background-color: maroon; */
+}
+.paragrapfOne-p-parttwo{
+    text-align: center;
+    /* background-color: rgb(88, 57, 57); */
+
+}
+.icon-divss{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 10px; */
+    margin-block: 5%;   
+
+    /* background-color: olive; */
+}
+.Arrow-icon{
+    /* margin-left: 50%; */
+    font-size: 35px;
+    /* position:relative; */
+    bottom: 40px;
+    /* background-color: midnightblue; */
+}
+.border-horizontal{
+   width: 400px;
+   height: 4px;
+border-width:0px;
+border-style: solid;
+/* position: relative; */
+background-image:-webkit-linear-gradient(left, #f8f9fda9, #0095CD, #d2d3d88f);
+border-radius: 4px;
+}
+.clock-icon{
+    color: #12B428;
+    /* margin-left: 50%; */
+    font-size: 35px;
+    /* position:relative; */
+    /* top: 40px; */
+    /* top:13% ; */
+}
+.paragrapfTwo{
+    font-size: 20px;
+    text-align: center;
+    /* top:20px; */
+    /* left: 45px; */
+    /* position: relative; */
+    margin-bottom: 0;
+    /* background-color: orangered; */
+}
+.paragrapfTwo-p{
+    font-size: 13px;
+    margin-bottom: 20px; 
+    /* background-color: #0095CD;   */
+}
+/* #border-horizontalTwo{
+margin-left: 15%;
+margin-top: 14%;
+} */
+.paragrapfThree{
+    font-size: 20px;
+    /* background-color: darkkhaki; */
+    text-align: center;
+    /* top:22px;
+    left: 45px; */
+    /* padding-bottom: 35px; */
+    /* position: relative; */
+    /* margin-inline: 38%; */
+}
+#check-icon{
+    /* position: relative; */
+    /* top: 10%; */
+}
+#border-horizontalThree{
+    /* position: relative; */
+    /* margin-left: 34%; */
+    /* bottom: 18%; */
+    /* display: flex;
+    justify-content: center; */
+    margin-inline: 22%;
+}
+#user-icon{
+    /* margin-left: 50%; */
+    font-size: 35px;
+    /* position:relative; */
+    /* bottom: 30px; */
+    color:#12B428 ;
+}
+.paragrapfFour{
+    font-size: 20px;
+    /* bottom: 50px; */
+    /* left: 49px; */
+    /* padding-left: 23px; */
+    /* position: relative; */
+    /* margin-inline: 38%; */
+    text-align: center;
+}
+#information{
+    display: flex;
+    justify-content: space-evenly;
+}
+.map{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(173, 250, 57, 0.486);
+    margin-top: 10px;
+}
+.inform{
+margin-bottom: 6%;
+}
+.icon-border{
+    direction: rtl;
+    font-size: 20px;
+    border-right: 6px solid #12B428;
+    height: 44px;
+    border-radius: 3px;
+    margin-right: 30px;
+    padding-right: 20px;
+
+}
+.text-p{
+    direction: rtl;
+    margin-right: 30px;
+    font-size: 13px;
+}
+.tele-email{
+    direction: rtl;
+    display: flex;
+    padding-right: 30px;
+}
+.tele-p{
+    padding-left: 20px;
+}
+.email-p{
+    padding-right: 20px;
+
+}
+.icon{
+    position: relative;
+    font-size: 20px;
+    top: 10%;
+}
+.location{
+    direction: rtl;
+    display: flex;
+    padding-right: 20px;
+}
+.icon-location{
+    position: relative;
+    font-size: 25px;
+    top:35% ;
+}
+.location-p{
+    font-size: 12px;
+    position: relative;
+    padding-right: 10px;
+    line-height:0.4cm;
+}
+.location-p2{
+    position: relative;
+    padding-right: 40px;
+}
+.dsds{
+
+}

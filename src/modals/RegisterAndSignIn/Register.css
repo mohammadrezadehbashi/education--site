@@ -1,0 +1,49 @@
+.input-entry{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-inline: 20px;
+}
+.entry-sep{
+    border: 2px solid #45BFEC;
+width: 208.57px;
+height: 35px;
+border-radius: 5px;
+margin-block: 3px;
+padding-inline: 10px;
+direction: rtl;
+font-family: "IRANSans-Medium-web" ;
+font-size: 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>SignUp */
+.borderBottom-text{
+    width: 110px;
+}
+.grid-inpt{
+    display: grid;
+    margin-inline: 150px;
+}
+.bbttnn:hover{
+    background-color:#12B428 ;
+    color: white;
+}
+
+
+.modalR {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+    
+  }
+  .ffR{
+    /* position: absolute;
+  height: auto;
+  top:5%;
+  left:5%; */
+  /* transform: translate(-50%,-50%); */
+  /* background-color: white; */
+  }

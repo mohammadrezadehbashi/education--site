@@ -1,0 +1,59 @@
+.body-buycard{
+    /* width:vw; */
+    margin-inline: 75px;
+    height:100px;
+    background-color: rgba(241, 193, 193, 0.699);
+    margin-bottom: 10px;
+}
+.body-buycard:first-child{
+    margin-top: 40px;
+}
+.buycard-flex{
+display: flex;
+justify-content: space-between;
+}
+.buycard-left{
+    margin-left: 10px;
+    margin-block: 11px;
+    width:160px;
+    height:80px;
+}
+.buycard-right{
+    margin-right: 10px;
+    margin-block:4px;
+    width:235px;
+    height:93px;
+}
+.img-buycard{
+    width:130px;
+    height:80px;
+    margin-right: 10px;
+}
+.ul-buycard{
+    font-size: 11px;
+    font-weight: 900;
+    line-height: 0.7cm;
+    direction: rtl;
+}
+.buycard-flex-mgn{
+display: flex;
+justify-content: space-evenly;
+height:93px;
+}
+.li-buycard{
+    width: 120px;
+}
+.buycard-flex-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dvipCost{
+    font-size: 14px;
+}
+
+@media only screen and (max-width:793px){
+    .body-buycard{
+        margin-inline: 2vw;
+    }
+}

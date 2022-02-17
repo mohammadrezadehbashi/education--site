@@ -1,0 +1,50 @@
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 90px;
+    height:90px;
+    border-radius: 15px;
+box-shadow: 0px 0px 20px grey;
+margin-top: 40px;
+position:relative;
+
+}
+.circle-flex{
+    position: absolute;
+    /* left:1830px; */
+    left:97.5%;
+    top: 24px;
+}
+.circle{
+    width: 49px;
+    height: 49px;
+    border-radius: 32px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #FFFFFF;
+font-size: 15px;
+box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.575);
+}
+.lefts{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.icon-download{
+    font-size: 35px;
+    color: #12B428; 
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.time-film{
+    font-size: 13px;
+    margin-top: 44px;
+}
+.rightt{
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 64px;
+}
