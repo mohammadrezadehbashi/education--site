@@ -5,6 +5,8 @@ import im from "../../assets/Images/Academi.png";
 import ola from "../../assets/Images/Questions-amico.svg";
 import { useAuth } from '../../auth-Context';
 import { Link } from 'react-router-dom';
+import { FaRegWindowClose } from "react-icons/fa";
+
 // import HomeOne from '../../screen/HomeOne';
 // import { useState } from 'react/cjs/react.development';
 const WarningTrustful=(prop)=>{
@@ -18,8 +20,11 @@ return(
     <div className='modal'>
     <div className='container-confirm fx fl' >
      <section className="ff">
-        <div className='f-flex f-flex2'>
-        <button className='btn-x' onClick={prop.HideStateExit}>X</button>
+        <div className='f-flex f-flex2 ff-ff'>
+        {/* <button className='btn-x' onClick={prop.HideStateExit}>X</button> */}
+        <div className='btn-x' onClick={prop.HideStateExit}>
+          <FaRegWindowClose size={22} color='red' />
+            </div>
         <img src={im} className='imgs-Academi' alt='img'/>
         </div>
         <div className='vaje vajeWarning'>
@@ -28,8 +33,8 @@ return(
         <h5 className='text-p-question'> از این کار مطمئنی ؟</h5>
         <img src={ola} className='imgs-confirm imgs-code marginTop-bottom' alt='img' />
      <div className='flex-inputValid'>
-     <button type="button"className='bbttnn b-entry btnValidation' onClick={prop.HideStateExit}>نه</button>
-     <Link to="../" className='llllink'><button type="button" className='bbttnn b-entry btnValidation' onClick={LogOut}>بله </button></Link>
+     <button type="button"className='bbttnn b-entry btnValidation beabtn' onClick={prop.HideStateExit}>نه</button>
+     <Link to="../" className='llllink'><button type="button" className='bbttnn b-entry btnValidation beabtn' onClick={LogOut}>بله </button></Link>
      {/* {LoggedIn &&( 
 <HomeOne/>
 )} */}

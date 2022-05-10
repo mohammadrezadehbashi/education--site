@@ -164,11 +164,12 @@ routeSel===7 ?
     <div className='container-Route col-l-5 fx'>
         
         <div className='div-image-profile '>
-<img src={file} alt="img" className='image-profile col-l-4'/>
+<img src={file}   className='image-profile col-l-4'/>
 </div>
 <div className='row-name-selectImage'>
 <p className='name-prof col-l-font'>محمد رضا دهباشی</p>
 <input type='file' className='circle-select' onClick={handleChange}/>
+{/* <div className='circle-select'>+</div> */}
 </div>
 <div className="div-selection-list col-l-div-">
     <div className="-L">

@@ -11,6 +11,8 @@ import { Link,Outlet } from 'react-router-dom';
 import {BiArrowBack} from "react-icons/bi";
 // import Introduction from "./Introduction";
 import SliderSlick from "../component/SliderCraousel/SliderSlick";
+import SliderSlickTwo from "../component/SliderCraousel/SliderSlickTwo";
+
 import SignIn from "../modals/RegisterAndSignIn/SignIn";
 const HomeOne=()=>{
     const {data}=useAuth();
@@ -64,6 +66,7 @@ return(
              {/* <p>{""}</p> */}
              </div>
              <SliderSlick/>
+             <SliderSlickTwo/>
              <div id='line-Programmer'>
 <h3 ><Link to="/MoreProduct" className='text-more'><BiArrowBack/>{" "}بیشتر</Link></h3>
 <h3 className='text-programing'>برنامه نویسی</h3>

@@ -17,8 +17,29 @@
    /* color: brown; */
     /* padding:5px; */
 }
+.ssssliiickk2{
+    display: none;
+}
 @media only screen and (max-width:900px){
-    Slider{
+    /* Slider{
         slidesToShow: 3;
+    } */
+    .ssssliiickk{
+        display: none;
+    }
+    .ssssliiickk2{
+        display:block;
     }
 }
+
+@media only screen and (max-width:500px){
+    .ssssliiickk{
+        display: none;
+    }
+    .ssssliiickk2{
+        display:block;
+    }
+}
+
+
+
