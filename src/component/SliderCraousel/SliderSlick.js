@@ -10,14 +10,14 @@ import CardProductInSlider from "./CardProductInSlider";
   constructor(props) {
     super(props)
 
-    this.state = {
-      toggleSlick: true
-    }
+    // this.state = {
+    //   toggleSlick: true
+    // }
   }
 
-  handleSlick = () => {
-    this.setState({ toggleSlick: false })
-  }
+  // handleSlick = () => {
+  //   this.setState({ toggleSlick: false })
+  // }
   render() {
     const settings = {
       className: "center",
@@ -33,20 +33,20 @@ import CardProductInSlider from "./CardProductInSlider";
       // slidesToScroll: 3,
       // adaptiveHeight:true,
     };
-    const settings2 = {
-      className: "center",
-      dots: true,
-      // arrows:true,
-      centerMode: true,
-      infinite: true,
-      centerPadding: "0px",
-      speed: 500,
-      slidesToShow: 3,
-    };
+    // const settings2 = {
+    //   className: "center",
+    //   dots: true,
+    //   // arrows:true,
+    //   centerMode: true,
+    //   infinite: true,
+    //   centerPadding: "0px",
+    //   speed: 500,
+    //   slidesToShow: 3,
+    // };
     return (
-      <div>
+      <div className="ssssliiickk">
 
-        <Slider {...settings} className="ssssliiickk">
+        <Slider {...settings} >
           {/* <div>
         <CardComment/>
 
