@@ -12,8 +12,6 @@ function App() {
   const{LoggedIn}=useAuth();
   console.log('logineed'+LoggedIn);
   return ( 
-    // <RouteComponent/>
-    // <RouteComponentTwo/>
      <HomeOne/>
         // LoggedIn ? <Authentication/> : <UnAuthentication/>
       );

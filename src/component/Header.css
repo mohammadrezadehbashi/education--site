@@ -1,91 +1,89 @@
-.body-header{
-    box-sizing:border-box;
+.body-header {
+    box-sizing: border-box;
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
-    justify-content:space-between; 
-    /* direction: rtl; */
-   /* width: 1870px; */
-   width: 98%;
-    /* height: 113px; */
+    justify-content: space-between;
+    width: 98%;
     height: 80px;
     margin-top: 1%;
     margin-left: 1%;
-    background-image: linear-gradient(to right,#f1d7e7,#d5e0eb);
-box-shadow: 0px 0px 20px grey;
-/* right: 2px;
-left: 2px; */
-z-index: 1;
+    background-image: linear-gradient(to right, #f1d7e7, #d5e0eb);
+    box-shadow: 0px 0px 20px grey;
+    z-index: 1;
 }
-.header-right{
+
+.header-right {
     direction: rtl;
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
-.image-brand{
-    /* display: flex;
-    align-items: center; */
-    /* width: 151px; */
-    width:101px;
-    /* height: 107px; */
+
+.image-brand {
+    width: 101px;
     height: 87px;
-     margin-right: 24px; 
+    margin-right: 24px;
 }
-.ul-header{
-     /* list-style: none;  */
-     display: flex;
-     font-weight:500;
+
+.ul-header {
+    display: flex;
+    font-weight: 500;
 }
-.ul-header li{
+
+.ul-header li {
     margin-left: 31px;
     margin-right: 31px;
     font-size: 13px;
 }
-.button-profile-signup{
-    
-     font-family: "IRANSans-Medium-web";
-     font-weight:600;
+
+.button-profile-signup {
+    font-family: "IRANSans-Medium-web";
+    font-weight: 600;
     width: 150px;
     height: 42px;
     background-color: #45BFEC;
-    border: #45BFEC solid 2px;
+    border: #8b8e8f solid 2px;
     border-radius: 10px;
-     /* margin-right: 856px;
-    margin-top:31px;  */
     color: #FEFEFE;
     cursor: pointer;
+    box-shadow: 0px 0px 20px grey;
 }
-.button-profile-signup:hover{
+
+.button-profile-signup:hover {
     font-size: 20px;
-    transition:1s;
+    transition: 1s;
 }
-.header-left{
-     /* direction: ltr;  */
-    display:flex; 
-align-items: center;
-margin-left: 24px;
+
+.header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
 }
-.Icon-shopping{
+
+.Icon-shopping {
     margin-inline: 23.75px;
     font-size: 20px;
     color: black;
 }
-.Icon-search{
+
+.Icon-search {
     font-size: 20px;
     color: black;
 }
-#Link-li{
+
+#Link-li {
     text-decoration: none;
     color: black;
 }
-.icicic{
+
+.icicic {
     display: flex;
     align-items: center;
     margin-top: 15px;
 }
 
-.counterShow{
-    position:absolute;
+.counterShow {
+    position: absolute;
     top: -17px;
     left: 30px;
     width: 15px;
@@ -95,33 +93,35 @@ margin-left: 24px;
     background-color: rgba(255, 0, 0, 0.719);
     font-size: 8px;
     display: flex;
-justify-content: center;    align-items: center;
+    justify-content: center;
+    align-items: center;
 }
-.counterShowParent{
-    position:relative;
-}
-.cSPTWO{
-    left:37px;
-}
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>headerTwo */
-.bodyTwo{
-   /* width: 1310px; */
-height: 80px;
-margin:15px;
-background-image: linear-gradient(to right,#f1d7e7,#d5e0eb);
-box-shadow: 0px 0px 20px grey;
-margin-bottom: 25px;
-display:flex;
-justify-content:space-between;
-border-radius: 4px;
-/* margin-top: 5px; */
 
+.counterShowParent {
+    position: relative;
 }
-.button-profile-signupTwo{
+
+.cSPTWO {
+    left: 37px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>headerTwo */
+.bodyTwo {
+    height: 80px;
+    margin: 15px;
+    background-image: linear-gradient(to right, #f1d7e7, #d5e0eb);
+    box-shadow: 0px 0px 20px grey;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.button-profile-signupTwo {
     font-family: "IRANSans-Medium-web";
-     font-weight:600;
+    font-weight: 600;
     width: 120px;
-    height:38px;
+    height: 38px;
     background-color: #45BFEC;
     border: #45BFEC solid 2px;
     border-radius: 5px;
@@ -129,81 +129,143 @@ border-radius: 4px;
     display: flex;
     align-items: center;
     padding-left: 15px;
+    box-shadow: 0px 0px 14px grey;
 }
-.header-leftTwo{
-    display:flex; 
+
+.header-leftTwo {
+    display: flex;
     align-items: center;
     margin: 24px;
 }
-.Icon-shoppingTwo{
+
+.Icon-shoppingTwo {
     margin-inline: 15px;
     font-size: 20px;
     padding-top: 14px;
     color: black;
 }
-.Icon-searchTwo{
-font-size: 20px;
-padding-top: 14px;
-color: black;
+
+.Icon-searchTwo {
+    font-size: 20px;
+    padding-top: 14px;
+    color: black;
 }
-.icon-persTwo{
+
+.icon-persTwo {
     font-size: 17px;
     margin-left: 10px;
 }
-@media only screen and (max-width:841px){
-   .ul-header li{
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 10px;
-}
-.button-profile-signup,.button-profile-signupTwo{
-   width: 120px;
-   height: 27px;
-   border-radius: 7px;
-}
-}
-@media only screen and (max-width:615px){
-   .ul-header li{
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 8px;
-}
-.button-profile-signup,.button-profile-signupTwo{
-   width: 120px;
-   height: 27px;
-   border-radius: 7px;
-   font-size: 10px;
-}
-.button-profile-signup:hover{
-    font-size: 12px;
-    transition:1s;
-}
-.Icon-shopping{
-    margin-bottom: 10px;
-    margin-inline: 13.75px;
-    font-size: 10px;
-}
-.Icon-search{
-    font-size: 10px;
-    margin-bottom: 10px;
-}
-.cSPTWO{
-    left:20px;
-}
-}
-@media only screen and (max-width:503px){
-    .button-profile-signup,.button-profile-signupTwo{
-       width: 59px;
-       height: 29px;
-       border-radius: 5px;
+
+@media only screen and (max-width:935px) {
+    .ul-header li {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
     }
-    .image-brand{
-        width:70px;
-        height: 60px;
-         margin-right: 10px; 
-    }
-    .header-left{
-   margin-left: 10px;
-   }
 }
 
+@media only screen and (max-width:707px) {
+
+    .body-header,
+    .bodyTwo {
+        height: 60px;
+    }
+
+    .image-brand {
+        width: 70px;
+        height: 57px;
+    }
+
+    .button-profile-signup,
+    .button-profile-signupTwo {
+        width: 100px;
+        height: 25px;
+        border-radius: 7px;
+        font-size: 10px;
+    }
+
+    .button-profile-signup:hover {
+        font-size: 12px;
+        transition: 1s;
+    }
+
+    .Icon-shopping {
+        margin-inline: 10.75px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .Icon-search {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:615px) {
+    .ul-header li {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:517px) {
+
+    .button-profile-signup,
+    .button-profile-signupTwo {
+        width: 59px;
+        height: 29px;
+    }
+
+    .button-profile-signupTwo {
+        font-size: 0px;
+        border-radius: 35px;
+    }
+
+    .icon-persTwo {
+        font-size: 25px;
+        margin-left: 0px;
+    }
+
+    .image-brand {
+        margin-right: 2px;
+    }
+
+    .header-left {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:431px) {
+    .ul-header li {
+        display: none;
+    }
+
+    .ul-header li:first-child,
+    .ul-header li:nth-child(2) {
+        display: block;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+
+    .ul-header li:first-child,
+    .ul-header li:nth-child(2) {
+        display: block;
+        font-size: 7px;
+    }
+
+    .Icon-shopping,
+    .Icon-search {
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .image-brand {
+        width: 60px;
+        height: 40px;
+        margin-right: 2px;
+        margin-left: -35px;
+    }
+}
