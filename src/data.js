@@ -55,7 +55,7 @@ const dataGraphist = [
 //   ],
 //   Frontend:[
   {
-    course: "react reactnative دوره",
+    course: "react دوره",
     teacher: "سلگی",
     price: "520,000",
     picture: require("./assets/Images/download.png"),

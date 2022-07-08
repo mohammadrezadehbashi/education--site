@@ -5,11 +5,11 @@ import anime from "../assets/Images/Online learning-amico.svg";
 import { BsCheckLg } from "react-icons/bs";
 import Header from "../component/Header";
 import Footer from '../component/Footer/Footer';
+import FooterOne from '../component/Footer/FooterOne';
 import { useAuth } from "../auth-Context"
 import CardProduct from '../component/CardProduct';
 import { Link, Outlet } from 'react-router-dom';
 import { BiArrowBack } from "react-icons/bi";
-// import Introduction from "./Introduction";
 import SliderSlick from "../component/SliderCraousel/SliderSlick";
 import SliderSlickTwo from "../component/SliderCraousel/SliderSlickTwo";
 
@@ -34,7 +34,7 @@ const HomeOne = () => {
 
                     {/* <img src={anime} alt="imageole" className="imageAnime"/> */}
                     <div className='text'>
-                        <div style={{marginLeft:"-5%"}} className="yadgiri">
+                        <div style={{ marginLeft: "-5%" }} className="yadgiri">
                             <h1 className='textLarge'>یادگیری به فاصله چند کلیک</h1>
                             <ul className='ul'>
                                 <li><h3 className='Icon-border'>مزایای ثبت نام در مکین</h3></li>
@@ -57,26 +57,50 @@ const HomeOne = () => {
                         </div>
                     </div>
                 </div>
-                <main
-                //  style={{width:"100vw"}}
-                >
+                <main>
                     <div style={{ display: "flex", justifyContent: "center" }}>
-                        {/* <p>{""}</p> */}
                         <h2 id='takhfifane-border'>تخفیفانه</h2>
-                        {/* <p>{""}</p> */}
                     </div>
                     <SliderSlick />
-                    <SliderSlickTwo />
+                    <div className="div-Slider">
+                        <SliderSlickTwo />
+                    </div>
                     <div id='line-Programmer'>
-                        <h3 ><Link to="/MoreProduct" className='text-more'><BiArrowBack />{" "}بیشتر</Link></h3>
-                        <h3 className='text-programing'>برنامه نویسی</h3>
+                        <div>
+                            <Link to="/MoreProduct" className='text-more'>
+                                <div id='row-arrow-others'>
+                                    <div>
+                                        <h3 id='bishtar-id'>{" "}بیشتر</h3>
+                                    </div>
+                                    <div style={{ alignSelf: "center", marginRight: "10%" }}>
+                                        <BiArrowBack />
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div>
+                            <h3 className='text-programing'>برنامه نویسی</h3>
+                        </div>
                     </div>
                     <div id='CardProduct'>
                         <CardProduct />
                     </div>
                     <div id='line-Programmer'>
-                        <h3 ><Link to="/MoreProduct" className='text-more'><BiArrowBack />{" "}بیشتر</Link></h3>
-                        <h3 className='text-programing'>برنامه نویسی</h3>
+                        <div>
+                            <Link to="/MoreProduct" className='text-more'>
+                                <div id='row-arrow-others'>
+                                    <div>
+                                        <h3 id='bishtar-id'>{" "}بیشتر</h3>
+                                    </div>
+                                    <div style={{ alignSelf: "center", marginRight: "10%" }}>
+                                        <BiArrowBack />
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        <div>
+                            <h3 className='text-programing'>برنامه نویسی</h3>
+                        </div>
                     </div>
                     <div id='CardProduct'>
                         <CardProduct />
@@ -85,7 +109,7 @@ const HomeOne = () => {
                 </main>
             </div>
 
-            <Footer />
+            <FooterOne/>
         </>
     );
 };

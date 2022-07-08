@@ -1,150 +1,4 @@
-.Footer {
-  /* box-sizing: border-box;
-  margin: 0px;
-  padding: 0px; */
-  /* width: 98.75vw; */
-  direction: rtl;
-  font-family: "IRANSans-Medium-web";
-  /* position:relative; */
-}
-.col-12 {
-  /* width: 1920px; */
-  /* width: 100vw; */
-  height: 380px;
-  border-radius: 29px 29px 0px 0px;
-  background-color: #f1f4ff;
-}
-#right-footer {
-  /* direction: rtl; */
-  display: flex;
-  width: 700px;
-  height: 100px;
-  /* margin-left: ; */
-  justify-content:space-between;
 
-  /* padding-left: 40%; */
-}
-.easy-access {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 25px;
-  padding-right: 12%;
-
-}
-.about-us {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 25px;
-  margin-left: 210px;
-}
-.h3-acsess-about {
-  display: flex;
-  width: 99%;
-  border-bottom: #45bfec solid 4px;
-  padding-bottom: 15px;
-  border-radius: 2px;
-  padding-left: 3px;
-  padding-right: 5px;
-}
-#bottem-right-footer {
-  direction: rtl;
-  display: flex;
-  justify-content: space-between;
-  /* padding-left: 33%; */
-  width: 1200px;
-  height: 100px;
-}
-.ul-access {
-  /* display: grid; */
-  justify-content: flex-start;
-  list-style-type: none;
-  padding-right: 12%;
-}
-.Icon-ul {
-  font-size: 15px;
-  padding-left: 15px;
-}
-.ul-access li {
-  /* padding-top: 32px; */
-  font-size: 13px;
-  line-height: 1cm;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  margin-left: 200px;
-
-  width: 140px;
-}
-.text-about {
-  /* padding-top: 32px;
-  margin-left: 10%; */
-}
-.text-about p {
-  font-size: 12px;
-  line-height:0.7cm;
-  /* padding-right: 1%; */
-  width: 440px;
-
-}
-#Links {
-  color: #141414;
-  text-decoration: none;
-}
-.symbols {
-  display: flex;
-  justify-content: flex-end;
-  margin-right:68%;
-  /* direction: ltr; */
-  width: 400px;
-  height: 90px;
-}
-#left-image {
-  /* position: absolute; */
-  /* left: 210px; */
-  width: 180px;
-  height: 102px;
-  direction: ltr;
-  /* z-index: -1; */
-}
-.symbol-sama{
-    width: 111px;
-    height: 121px;
-    border-radius: 10px;
-    /* top: 10%; */
-  }
-#symbol-saman {
-  padding-inline: 65px;
-}
-#social-network {
-  display: flex;
-  justify-content: center;
-  /* margin-left: 50%; */
-  /* margin-top: 1%; */
-  font-size:30px;
-  color: #aeaeae;
-  height: 40px;
-}
-.telegram-icon {
-  padding-inline: 35px;
-}
-.hre {
-  border: #141414 solid 1px;
-  margin-inline: 173px;
-}
-.p-bottom {
-  display: flex;
-  justify-content: center;
-  /* margin-left: 43%; */
-  font-size: 13px;
-}
-/* .sss{
-  display: flex;
-  justify-content:flex-end;
-} */
-.sssd{
-  display: flex;
-  justify-content: space-between;
-}
 
 @media only screen and (max-width:1199px){
   .sssd{
@@ -186,10 +40,11 @@
     width: 800px;
   }
   .symbols {
-    margin-right:43%;
+    /* margin-right:43%; */
   }
   .symbol-sama{
-    height: 90px;}
+    height: 90px;
+  }
 }
 @media only screen and (max-width:803px){
   #bottem-right-footer {

@@ -16,6 +16,7 @@ const CardProduct=()=>{
 return(
     <>
     {dataGraphist.map((item)=>
+    <div className='cont-pro-card'>
     <div className='Card'>
         
         <div style={{paddingLeft:"18px",paddingRight:"18px"}}>
@@ -35,7 +36,8 @@ return(
         </div>
         </div>
         <Link to="/CoursePlay" id="Link-button"><button className="button">مشاهده</button></Link>
-    </div>  
+    </div> 
+    </div> 
     )}
    </>
     

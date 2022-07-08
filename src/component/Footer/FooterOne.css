@@ -1,0 +1,121 @@
+.Footer-x-y {
+    border-radius: 29px 29px 0px 0px;
+    background-color: #f1f4ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-f-x-y {
+    width: 100%;
+}
+
+.center-f-x-y {
+    width: 100%;
+}
+
+.left-f-x-y {
+    width: 100%;
+}
+
+.symbol-sama-x-y {
+    width: 60%;
+    height: 200%;
+    border-radius: 5px;
+}
+
+.symbols-x-y {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.lefffft-x-y {
+    display: flex;
+    justify-content: center;
+}
+
+#left-image-x-y {
+    width: 50%;
+    height: 80px;
+}
+
+.about-us-x-y {
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.h3-acsess-about-x-y {
+    display: flex;
+    border-bottom: #45bfec solid 4px;
+    padding-bottom: 8px;
+    border-radius: 2px;
+}
+
+.radif-x-y {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-about-x-y p {
+    font-size: 12px;
+    line-height: 0.7cm;
+    width: 480px;
+    text-align: end;
+}
+
+.ul-access {
+    justify-content: flex-start;
+    list-style-type: none;
+    padding-right: 12%;
+}
+
+.Icon-ul {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+#Links {
+    color: #141414;
+    text-decoration: none;
+}
+
+.ul-access li {
+    font-size: 13px;
+    line-height: 1cm;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    width: 140px;
+}
+
+#social-network {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #aeaeae;
+    height: 40px;
+}
+
+.telegram-icon {
+    padding-inline: 35px;
+}
+
+.hre {
+    border: #141414 solid 1px;
+    margin-inline: 173px;
+}
+
+.p-bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+@media only screen and (max-width:957px) {
+    .right-f-x-y ,.center-f-x-y ,.left-f-x-y {
+        display: none;
+    }
+    #social-network{
+        padding-top: 15px;
+    }
+}

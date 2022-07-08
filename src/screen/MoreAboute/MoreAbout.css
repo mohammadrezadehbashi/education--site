@@ -8,7 +8,9 @@ height: 1460px;
 
     background-image:url(../../assets/Images/jk1t5tzt.png);
 background-repeat:round;
-background-size:contain;
+/* background-size:contain; */
+background-size: cover;
+
 opacity: 0.4;
 }
 .opacity{
