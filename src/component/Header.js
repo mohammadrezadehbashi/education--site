@@ -7,11 +7,10 @@ import ModalsConfirm from '../modals/ConfirmCode/ModalsConfirm';
 import { IoPersonOutline } from "react-icons/io5";
 import { useAuth } from '../auth-Context';
 const Header = (prop) => {
-    const [state, setState] = useState(false);
-
 
     const { LoggedIn } = useAuth();
 
+    const [state, setState] = useState(false);
     // console.log("dd" + LoggedIn);
     const Show = () => {
         setState(true);

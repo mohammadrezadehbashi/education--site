@@ -19,8 +19,15 @@
 
 .symbol-sama-x-y {
     width: 60%;
-    height: 200%;
+    height: 160%;
     border-radius: 5px;
+}
+
+#namad-e-x-y{
+    /* width: 70%; */
+    min-width:50px ;
+    border: #141414 solid 2px;
+    /* padding-right: 40%; */
 }
 
 .symbols-x-y {

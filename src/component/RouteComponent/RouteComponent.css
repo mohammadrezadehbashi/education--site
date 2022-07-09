@@ -54,7 +54,14 @@
     margin-inline: 25px;
     /* background-color: darksalmon; */
 }
-
+.circle-select1{
+opacity: 0;
+position: absolute;
+width: 12px;
+}
+.ButtonPlusImage{
+    margin-top: 0px;
+}
 .name-prof {
     font-size: 13px;
     /* background-color: deeppink; */

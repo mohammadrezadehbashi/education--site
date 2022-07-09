@@ -6,15 +6,15 @@ import { useAuth } from './auth-Context';
 import RouteComponent from './component/RouteComponent/RouteComponent';
 import RouteComponentTwo from './component/RouteComponent/RouteComponentTwo';
 
-
-
 function App() {
-  const{LoggedIn}=useAuth();
-  console.log('logineed'+LoggedIn);
-  return ( 
-     <HomeOne/>
-        // LoggedIn ? <Authentication/> : <UnAuthentication/>
-      );
+
+  // const { LoggedIn } = useAuth();
+  // console.log('logineed' + LoggedIn);
+
+  return (
+    <HomeOne />
+    // LoggedIn ? <Authentication/> : <UnAuthentication/>
+  );
 }
 
 export default App;

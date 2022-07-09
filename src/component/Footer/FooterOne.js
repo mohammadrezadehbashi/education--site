@@ -5,6 +5,7 @@ import { IoPersonAddOutline, IoAlertCircleOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import im from "../../assets/Images/Academi.png";
 import ins from "../../assets/Images/download.png";
+import namad from "../../assets/Images/ImageNested/download.jpg"
 import { FaTelegramPlane, FaWhatsapp, FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return (
@@ -17,7 +18,7 @@ const Footer = () => {
                         </div>
                         <div className="symbols-x-y">
                             <div>
-                                <img src={ins} alt="image" className="symbol-sama-x-y" />
+                                <img src={namad} alt="image" className="symbol-sama-x-y" id="namad-e-x-y"/>
                             </div>
                             <div>
                                 <img src={ins} alt="image" className="symbol-sama-x-y" />
@@ -62,13 +63,13 @@ const Footer = () => {
                             <ul className="ul-access">
                                 <li>
                                     <IoPersonAddOutline className="Icon-ul" />
-                                    <Link id="Links" to="/About">درباره ما</Link></li>
+                                    <Link id="Links" to="">درباره ما</Link></li>
                                 <li>
                                     <IoAlertCircleOutline className="Icon-ul" />
-                                    <Link id="Links" to="/Support">پشتیبانی</Link></li>
+                                    <Link id="Links" to="">پشتیبانی</Link></li>
                                 <li>
                                     <IoAlertCircleOutline className="Icon-ul" />
-                                    <Link id="Links" to="/Rules">قوانین و مقررات</Link></li>
+                                    <Link id="Links" to="">قوانین و مقررات</Link></li>
                             </ul>
                         </div>
 

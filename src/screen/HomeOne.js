@@ -4,7 +4,6 @@ import Image from "../assets/Images/home4.png";
 import anime from "../assets/Images/Online learning-amico.svg";
 import { BsCheckLg } from "react-icons/bs";
 import Header from "../component/Header";
-import Footer from '../component/Footer/Footer';
 import FooterOne from '../component/Footer/FooterOne';
 import { useAuth } from "../auth-Context"
 import CardProduct from '../component/CardProduct';
@@ -12,12 +11,12 @@ import { Link, Outlet } from 'react-router-dom';
 import { BiArrowBack } from "react-icons/bi";
 import SliderSlick from "../component/SliderCraousel/SliderSlick";
 import SliderSlickTwo from "../component/SliderCraousel/SliderSlickTwo";
-
 import SignIn from "../modals/RegisterAndSignIn/SignIn";
-const HomeOne = () => {
-    const { data } = useAuth();
-    const [selectModalEntry, setSelectModalEntry] = useState(false);
 
+const HomeOne = () => {
+    // const { data } = useAuth();
+
+    const [selectModalEntry, setSelectModalEntry] = useState(false);
     const showModal = () => {
         setSelectModalEntry(true);
     }
@@ -29,12 +28,10 @@ const HomeOne = () => {
             <div className="AppHome">
                 <Header />
 
-                {/* <img src={Image} alt="image" className="imageHome"/> */}
                 <div className="imageHome">
 
-                    {/* <img src={anime} alt="imageole" className="imageAnime"/> */}
                     <div className='text'>
-                        <div style={{ marginLeft: "-5%" }} className="yadgiri">
+                        <div style={{ marginLeft: "-5%" }}  className="yadgiri">
                             <h1 className='textLarge'>یادگیری به فاصله چند کلیک</h1>
                             <ul className='ul'>
                                 <li><h3 className='Icon-border'>مزایای ثبت نام در مکین</h3></li>
@@ -109,7 +106,7 @@ const HomeOne = () => {
                 </main>
             </div>
 
-            <FooterOne/>
+            <FooterOne />
         </>
     );
 };

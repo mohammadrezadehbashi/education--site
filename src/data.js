@@ -4,25 +4,25 @@ const dataGraphist = [
     course: " ui ux دوره",
     teacher: "علوی",
     price: "100,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/images (2).jpg"),
   },
   {
     course: " ui ux دوره ",
     teacher: "حسن زاده",
     price: "120,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/images (1).jpg"),
   },
   {
     course: "ui ux دوره",
     teacher: "حسینی",
     price: "110,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/download (1).jpg"),
   },
   {
     course: "ui ux دوره",
     teacher: "صادقی کیا",
     price: "100,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/download.png"),
   },
 // ],
     // {
@@ -44,13 +44,13 @@ const dataGraphist = [
     course: "java دوره",
     teacher: "موسوی",
     price: "390,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/images (3).jpg"),
   },
   {
     course: "C++ دوره",
     teacher: "رضایی",
     price: "200,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/download (4).jpg"),
   },
 //   ],
 //   Frontend:[
@@ -58,7 +58,7 @@ const dataGraphist = [
     course: "react دوره",
     teacher: "سلگی",
     price: "520,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/download (2).jpg"),
   },
   {
     course: "angular دوره",
@@ -70,13 +70,13 @@ const dataGraphist = [
     course: "vue دوره",
     teacher: "عسکری",
     price: "390,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/download (3).jpg"),
   },
   {
     course: "jquery دوره",
     teacher: "مهدی پور",
     price: "200,000",
-    picture: require("./assets/Images/download.png"),
+    picture: require("./assets/Images/ImageNested/images.png"),
   },
 //   ]
 //   }

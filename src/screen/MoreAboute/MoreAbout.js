@@ -100,7 +100,6 @@ const MoreAbout = () => {
                     </div>
                 </main>
                 <FooterOne />
-
             </div>
 
         </>

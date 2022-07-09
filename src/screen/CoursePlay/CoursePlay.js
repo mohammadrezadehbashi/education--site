@@ -28,6 +28,7 @@ const CoursePlay = () => {
     //     }
     // }
 
+    //افزودن به سبد
     const { lists } = useAuth();
     const { setLists } = useAuth();
     const { setCounts } = useAuth();

@@ -13,8 +13,8 @@ export const validPassword = new RegExp('^[041]');
 
 const SignIn = (prop) => {
 
-    const { LogIn } = useAuth()
-    const { LoggedIn } = useAuth();
+    // const { LogIn } = useAuth()
+    // const { LoggedIn } = useAuth();
 
     const [userName, setUserName] = useState("");
     const [password, setPassword] = useState("");

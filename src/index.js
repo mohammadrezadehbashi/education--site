@@ -25,7 +25,6 @@ import ResumeSend from './screen/Resume/ResumeSend';
 import RuleModal from './modals/RuleModal/RuleModal';
 
 ReactDOM.render(
-  //<React.StrictMode>
     <AuthProvider>
       <BrowserRouter>
       <Routes>
@@ -53,7 +52,6 @@ ReactDOM.render(
       </Routes> 
     </BrowserRouter>
     </AuthProvider>,
- // </React.StrictMode>,
   document.getElementById('root')
 );
 
